@@ -1,5 +1,7 @@
 # Storybook: fetch `react-intl` messages from `API`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/matteocng/storybook-fetch-messages-task-example.svg)](https://greenkeeper.io/)
+
 This example `React` project shows how to fetch `i18n` messages - to be used in `storybook` with [`storybook-addon-intl`](https://github.com/truffls/storybook-addon-intl) or just plain [`react-intl`](https://github.com/yahoo/react-intl) - from a `json` `REST API`.
 
 ## How to run this
