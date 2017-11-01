@@ -20,6 +20,7 @@
     "@storybook/addon-actions": "^3.2.13",
     "@storybook/addon-links": "^3.2.13",
     "@storybook/react": "^3.2.13",
-    "flow-bin": "^0.57.3"
+    "flow-bin": "^0.57.3",
+    "isomorphic-fetch": "2.2.1"
   }
 }
