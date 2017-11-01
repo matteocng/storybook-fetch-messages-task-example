@@ -1,6 +1,7 @@
 // @flow
 import { addDecorator, configure } from '@storybook/react';
 import { setIntlConfig, withIntl } from 'storybook-addon-intl';
+import centered from '@storybook/addon-centered';
 import { addLocaleData } from 'react-intl';
 
 // Load the locale data for all your supported locales.
@@ -31,6 +32,9 @@ setIntlConfig({
 
 // Register `storybook-addon-intl` decorator.
 addDecorator(withIntl);
+
+// Register other, optional decorators.
+addDecorator(centered);
 
 // Run storybook.
 configure(() => require('../src/stories'), module);
