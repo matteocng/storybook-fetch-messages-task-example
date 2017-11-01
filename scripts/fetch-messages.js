@@ -5,7 +5,12 @@ const fs = require("fs");
 
 // The path where we will store the `.json` i18n messages files.
 const messagesPath = path.resolve(__dirname, "../static");
-// Insert your i18n messages API url here.
+
+// Insert your i18n messages API url here. We assume that your API returns an
+// object similar to `i18nDataMock`, containing all the messages for all the
+// supported locales. If you don't have such API available, or your API can
+// return messages for one locale at a time, you will have to cycle your
+// supported locales and make more than one API call.
 const messagesApiUrl = "https://dog.ceo/api/breeds/list/all";
 
 // Create the messages path if it doesn't exist.
@@ -13,6 +18,7 @@ if (!fs.existsSync(messagesPath)) {
   fs.mkdirSync(messagesPath);
 }
 
+// Remove this, you should get this data from the API.
 const i18nDataMock = {
   "en-GB": {
     "app.demo": "This is just a demo",
@@ -34,7 +40,7 @@ console.log("Messages files path is:", messagesPath);
 fetch(messagesApiUrl)
   .then(res => res.json())
   .then((/* apiData */) => {
-    // Remove this line and uncomment `apiData` above.
+    // Remove the following line, uncomment `apiData` above, remove `i18nDataMock`.
     const apiData = i18nDataMock;
     let nLocalesSaved = 0;
 

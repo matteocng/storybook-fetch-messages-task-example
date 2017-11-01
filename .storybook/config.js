@@ -1,15 +1,16 @@
 // @flow
 import { addDecorator, configure } from '@storybook/react';
 import { setIntlConfig, withIntl } from 'storybook-addon-intl';
-
-// Load the locale data for all your defined locales.
 import { addLocaleData } from 'react-intl';
+
+// Load the locale data for all your supported locales.
 import enLocaleData from 'react-intl/locale-data/en';
 import itLocaleData from 'react-intl/locale-data/it';
 
 addLocaleData(enLocaleData);
 addLocaleData(itLocaleData);
 
+// Set your supported locales below.
 const locales = ['en-GB', 'it-IT'];
 
 // Import your messages.
@@ -21,14 +22,14 @@ locales.map((locale) => {
 
 const getMessages = (locale) => messages[locale];
 
-// Set intl configuration.
+// Set `storybook-addon-intl` configuration (it will handle `react-intl`).
 setIntlConfig({
     locales,
     defaultLocale: 'en-GB',
     getMessages
 });
 
-// Register decorator.
+// Register `storybook-addon-intl` decorator.
 addDecorator(withIntl);
 
 // Run storybook.
