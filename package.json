@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-intl": "^2.4.0",
     "react-scripts": "1.0.16"
   },
   "scripts": {
@@ -22,6 +23,7 @@
     "@storybook/addon-links": "^3.2.13",
     "@storybook/react": "^3.2.13",
     "flow-bin": "^0.57.3",
-    "isomorphic-fetch": "2.2.1"
+    "isomorphic-fetch": "2.2.1",
+    "storybook-addon-intl": "^2.1.2"
   }
 }
