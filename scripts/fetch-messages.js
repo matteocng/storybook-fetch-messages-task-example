@@ -8,6 +8,11 @@ const messagesPath = path.resolve(__dirname, "../static");
 // Insert your i18n messages API url here.
 const messagesApiUrl = "https://dog.ceo/api/breeds/list/all";
 
+// Create the messages path if it doesn't exist.
+if (!fs.existsSync(messagesPath)) {
+  fs.mkdirSync(messagesPath);
+}
+
 const i18nDataMock = {
   "en-GB": {
     "app.demo": "This is just a demo",
