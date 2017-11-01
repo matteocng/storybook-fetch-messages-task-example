@@ -19,9 +19,10 @@
     "fetch-messages": "node scripts/fetch-messages.js"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.13",
-    "@storybook/addon-links": "^3.2.13",
-    "@storybook/react": "^3.2.13",
+    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-links": "^3.2.14",
+    "@storybook/addons": "^3.2.14",
+    "@storybook/react": "^3.2.14",
     "flow-bin": "^0.57.3",
     "isomorphic-fetch": "2.2.1",
     "storybook-addon-intl": "^2.1.2"
