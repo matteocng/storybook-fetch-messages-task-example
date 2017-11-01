@@ -16,7 +16,8 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "flow": "flow --include-warnings; test $? -eq 0 -o $? -eq 2",
-    "fetch-messages": "node scripts/fetch-messages.js"
+    "fetch-messages": "node scripts/fetch-messages.js",
+    "prestorybook": "npm run fetch-messages"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.14",
