@@ -20,7 +20,7 @@ const i18nDataMock = {
 };
 
 const mapLocaleCodeToFileName = localeCode => {
-  return path.join(messagesPath, path.sep, localeCode + ".js");
+  return path.join(messagesPath, path.sep, localeCode + ".json");
 };
 
 console.log("Fetch messages service started...");
