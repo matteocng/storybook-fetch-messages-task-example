@@ -26,7 +26,7 @@
     "@storybook/addon-links": "^3.2.14",
     "@storybook/addons": "^3.2.14",
     "@storybook/react": "^3.2.14",
-    "flow-bin": "^0.65.0",
+    "flow-bin": "^0.73.0",
     "isomorphic-fetch": "2.2.1",
     "serve": "^6.4.0",
     "storybook-addon-intl": "^2.1.2"
