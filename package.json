@@ -24,7 +24,7 @@
     "@storybook/addon-actions": "^3.2.14",
     "@storybook/addon-centered": "^3.2.14",
     "@storybook/addon-links": "^3.2.14",
-    "@storybook/addons": "^3.2.14",
+    "@storybook/addons": "^4.0.0",
     "@storybook/react": "^3.2.14",
     "flow-bin": "^0.66.0",
     "isomorphic-fetch": "2.2.1",
