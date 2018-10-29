@@ -21,7 +21,7 @@
     "serve-storybook": "serve storybook-static"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.14",
+    "@storybook/addon-actions": "^4.0.0",
     "@storybook/addon-centered": "^4.0.0",
     "@storybook/addon-links": "^3.2.14",
     "@storybook/addons": "^4.0.0",
