@@ -23,7 +23,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^4.1.10",
     "@storybook/addon-centered": "^4.1.11",
-    "@storybook/addon-links": "^3.2.14",
+    "@storybook/addon-links": "^4.1.9",
     "@storybook/addons": "^4.1.10",
     "@storybook/react": "^3.2.14",
     "flow-bin": "^0.66.0",
